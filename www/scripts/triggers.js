@@ -161,7 +161,7 @@ TRIGGERS.DetailsViewHandler = (function() {
   }
 
   function onScrollWindow() {
-    if (window.scrollY > 338)
+    if (window.pageYOffset > 338)
       detailsView.classList.add('sticky');
     else
       detailsView.classList.remove('sticky');
